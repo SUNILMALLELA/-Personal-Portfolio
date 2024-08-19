@@ -1,0 +1,683 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <script src="https://kit.fontawesome.com/5c6d09dda0.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        body image{
+            background-size: cover;
+            background-repeat:repeat;
+            height: 100%;
+            width: 100%;
+        }
+
+        #card2{
+            position: fixed;
+            top: 12px;
+            left: 200px;
+            display: flex;
+            color: orange;
+        }
+        
+        #card2 a{
+            padding-right: 70px;
+            position:relative;
+            left: 140px;
+        }
+        #card1{
+            position: fixed;
+            top: 0px;
+            color: orange;
+        }
+        #card1 h3{
+            position: relative;
+            left: 90px;
+            bottom: 8px;
+        }
+        #card4 img{
+            height:50%;
+            position: fixed;
+            left: 800px;
+            border-radius: 70%;
+            bottom: 150px;
+            
+            
+        }
+       #card4 img{
+            box-shadow:0 0 25px orange,0 0 50px orange,0 0 100px orange;
+        }
+        #card3{
+            position: relative;
+            top: 160px;
+            left: 80px;
+            color:azure;
+        }
+        #card2 a:hover{
+            color:white;
+        }
+        #card1 h3:hover{
+            color:white;
+        }
+        #card5{
+            position:relative;
+            top: 220px;
+            left: 80px;
+        }
+        #card5 button{
+            border-radius: 10px;
+            background-color: orange;
+            padding: 3px;
+            padding-right: 25px;
+        }
+        #card6 {
+            position: relative;
+            top: 180px;
+            left: 85px;
+        }
+        #card7 {
+            position: relative;
+            top: 240px;
+            left: 110px;
+        }
+        #card6 a{
+            color: orange;
+            padding-right: 25px;
+        }
+        #card7 button{
+            border-radius: 10px;
+            background-color:lightskyblue;
+            padding: 3px;
+        }
+        
+        #Act3{
+            position: relative;
+            top: 330px;
+            color:orange;
+            left:90px;
+        }
+        #Act4{
+     color: white;
+     min-height: 300px;
+    max-width: 300px;
+    background: rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+        #Act5{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+        #Actor{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+        
+        #Act8{
+            position: relative;
+            top: 450px;
+            left: 70px;
+            color: aliceblue;
+        }
+        #Act9{
+            position: relative;
+            top: 540px;
+            color: aliceblue;
+            right: 130px;
+        }
+        #Act12{
+            display: flex;
+        }
+        #less1{
+            position: relative;
+            top: 500px;
+            color: aliceblue;
+            left: 75px;
+        }
+       #less2 img{
+       height: 130px;
+       width: 230px;
+
+       }
+       #less3 img{
+       height: 130px;
+       width: 230px;
+
+       }
+       
+       #less4{
+        display: flex;
+       }
+      
+       #less2{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center ;
+    color: white;
+    margin: 0 2rem;
+        }
+        #less3{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+        
+        #less5{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+        #less6{
+    color: white;
+     min-height: 200px;
+    max-width: 300px;
+    background:rgba(0,0,0,0.7);
+    border: 3px solid rgba(238,238,238,0.2);
+    border-radius: 2rem;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+        }
+      
+       
+       #less7{
+        display: flex;
+       }
+       #less5{
+        position: relative;
+        right: 15px;
+        top: 75px;
+        right: 15px;
+       }
+       #less6{
+        position: relative;
+        top: 75px;
+        left: 15px;
+       }
+       #more2{
+        position: relative;
+        color: aliceblue;
+        top: 500px;
+        left: 75px;
+       }
+       #more3 a{
+        color: orange;
+        padding-right: 30px;
+       }
+       #more5{
+        position: relative;
+        top: 298px;
+        color: whitesmoke;
+        left: 500px;
+       }
+       
+       #Acts{
+        display:none ;
+        position: relative;
+        bottom: px;
+       }
+       #card{
+        display:none;
+       }
+       #Act7{
+        display:none;
+        position: relative;
+        bottom: px;
+       }
+       #less{
+        display:none;
+        position: relative;
+        bottom:px;
+       }
+       #more{
+        display:none;
+        position: relative;
+        top:180px;
+       }
+       #Act6{
+        display: flex;
+        position: relative;
+        top: 40px;
+       }
+       #Act{
+        display: none;
+        color: aliceblue;
+        position: relative;
+        top: 300px;
+       }
+       
+.heading{
+    color: orange;
+    position: relative;
+    bottom: 50px;
+}
+.education{
+    padding: 100px 15px;
+    
+}
+.education h2 {
+    margin-bottom:1rem;
+}
+.timeline-items{
+    max-width:1200 px;
+    margin:auto ;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-items::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color:darkcyan;
+    left: calc(50% - 1px);
+}
+.timeline-item{
+    margin-bottom:40 px;
+    width: 100%;
+    position:relative;
+}
+.timeline-item:last-child{
+    margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+    height: 16px;
+    width: 18px;
+    background-color:whitesmoke;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 20px;
+}
+.timeline-date{
+    font-size: 20px;
+    font-weight: 800;
+    color:deepskyblue;
+    margin: 3px 0 10px;
+}
+.timeline-content{
+    background-color: #000000;
+    border: 3px lightseagreen;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px #00ffee;
+}
+
+.timeline-content h3{
+    font-size: 20px;
+    color:deeppink;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.timeline-content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    line-height: 22px;
+}
+#temp{
+    position:fixed;
+    left: 1100px;
+    color: orange;
+    top: 13px;
+}
+#Rest{
+    display:none;
+}
+
+    </style>
+    <body style="background-image: url(suni.png.jpg)">
+    
+
+ <div id="card1">
+            <h3 style="color:lightskyblue;" onclick="App9()">Portfolio.</h3>
+        </div>
+        <div id="Rest">
+        <div id="temp">
+            <a onclick="App7()">Removal</a>
+          </div> 
+        <div id="list">
+        <div id="card2">
+            <a  onclick="App1()" >Home</a>
+            <a onclick="App2()">About</a>
+            <a onclick="App3()">Services</a>
+            <a onclick="App4()">Skills</a>
+            <a onclick="App5()">projects</a>
+            <a onclick="App6()">Contact</a>
+        </div>
+        <div id="card">
+        <div id="card3">
+            <h3 style="color:sandybrown;">Hello,its Me</h3>
+            <h2 style="color:lightskyblue;">SUNIL MALLELA</h2>
+            <h3 style="color:lightskyblue;">And I'm a<span id="text"></span> Full Stack JAVA Developer</h3>
+            <P>As a fresher to be a Java Full Stack Developer,you'll embark<br> on a journey to master both front-end and back-end teachnologies.<br>On the frontend,you'll work with HTML,CSS,JAVASCRIPT to create responsive<br> and interactives user interfaces,often popular frame works like React or Angular.<br>On the Backend we focus on Java and the Frameworks like SpringBootetc...You''ll also <br>again experinces with databases like SQL,MYSQL etc... </P>
+        </div>
+        <div id="card4">
+            <img src="sunil.png.jpg">
+        </div>
+        <div id="card6">
+            <a href="https://www.facebook.com/login.php"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=32918211b258ee87JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIwNQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=twitter+login&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9sb2dpbj0&ntb=1"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=ff0bd9466b5f8968JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=instagram+login&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY2NvdW50cy9sb2dpbi8&ntb=1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=d23e3f236932b875JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=linkedin&u=a1aHR0cHM6Ly9pbi5saW5rZWRpbi5jb20v&ntb=1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div id="card5">
+            <button>Hire Me</button>
+            <button>Download CV</button>
+        </div>
+        <div id="card7">
+            <button>More About Me</button>
+ </div>
+        </div>
+        <div id="Act">
+            <section class="education" id="education">
+                <h2 class="heading">Academic Background:</h2>
+        <div class="timeline-items">
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date"> 2024</div>
+                    <div class="timeline-content">
+                        <h3>Degree and Major</h3>
+                        <p>B.Tech in Electronics & Cummunication Engineering<br>SV Enginnering College-Tirupati<br>State:Andhra Pradesh<br>Graduated:May 5<br>Percentage:85%
+        
+                        </p>
+                    </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date"> 2023</div>
+                    <div class="timeline-content">
+                        <h3>Internship Experience</h3>
+                        <p>Software Development Intern<br>KodNest <br>city:Banglore,state:Karnataka Dec 2023-Apr 2023<br>Skills:Full Stack Java Developer
+
+
+                        </p>
+                    </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date"> 2020</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Certificate</h3>
+                        <p>
+                            <p>MPC In Narayana Junior college-Kadapa<br>State:Andhra Pradesh<br>Graduated:March 2020<br>GPA:9.8
+        
+                        </p>
+                    </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date"> 2018</div>
+                    <div class="timeline-content">
+                        <h3> High School</h3>
+                        <p>Balavikas EM High School-Kadapa<br>State:Andhra Pradesh<br>Graduated:April 2018<br>GPA:9.7
+        
+                        </p>
+                    </div>
+                
+            </div>
+        </div>
+            </section>
+        </div>
+ 
+ <div id="Acts">
+    <div id="Act3">
+        <h1 style="position: relative; top: 40px; left: 50px;">Services</h1>
+    <div id="Act6">
+        <div id="Act4">
+            <img src="https://th.bing.com/th/id/OIP.L2AIbs_kMMEkL1-Hb0zGGAHaEK?w=293&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" height="170px" width="170px">
+       <h3 style="color: deeppink;" >Front-end(client-side) </h3>
+       <h3 style="color: deeppink;">Development</h3>
+       <p>Focus on Layout,Animations,<br>contentoraganizations,navigation,<br>graphics ect..</p>
+       <h4 style="color: teal;">Programming Languages:</h4>
+       <h5>JAVASCRIPT,CSS,HTML</h5>
+        </div>
+        <div id="Act5">
+            <img src="https://th.bing.com/th/id/OIP.Blq2cgseYOfjHUziPjps-AHaEk?w=245&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" height="170px" width="230px">
+       <h3 style=" color: deeppink;" >Back-end(sever-side) </h3>
+       <h3 style="color: deeppink;">Development</h3>
+       <p>Focus building code,debugging.<br>Practice on better websites...<br> And data base management</p>
+       <h4 style="color: teal;">Programming Languages:</h4>
+       <h5>Java & SQL</h5>
+        </div>
+        <div id="Actor">
+            <img src="https://th.bing.com/th/id/OIP.fD4Hqbzzv5E9AHfucXQBVwHaE8?w=228&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7 "height="170px" width="170px">
+            <h3 style=" color: deeppink;" >Web Designing </h3>
+            <h3 style="color: deeppink;">Websites</h3>
+            <p>Here, we cover everything from <br>web designing fundamentals such <br>as the importance of UI/UX Design </p>
+            <h4 style="color: teal;">Programming Languages:</h4>
+       <h5>UI & UX</h5>
+        </div>
+    </div>
+    </div>
+ </div>
+ <div id="Act7">
+    <div id="Act12">
+    <div id="Act8">
+        <h1 style="color: orange;">Key Skills for a JAVA Full Stack Developer</h1>
+        <h4 style="color:teal;">Front-end(client-side) Development</h4>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <h5 style="color:mediumvioletred;">Frameworks/Libraries:</h5>
+        <li>React.js</li>
+        <li>Boot Strap</li>
+        <h4 style="color:teal;">back-end(server-side) Development</h4>
+        <li>JAVA</li>
+        <h5 style="color:mediumvioletred;">Framework</h5>
+        <li>Spring Boot</li>
+        <h4 style="color:teal;">Data Base Management</h4>
+        <li>SQL</li>
+    </div>
+    <div id="Act9">
+        <div id="Act10">
+            <h3 style="color:teal;">Techincal Skills</h3>
+        <li>Programming Languages</li><br>
+        <li>Problem solving</li><br>
+        <li>Frameworks</li><br>
+        <li>Database</li>
+        <div id="Act11">
+            <h3 style="color:teal;">Soft Skills</h3>
+            <li>communication</li><br>
+            <li>Time Management</li><br>
+            <li>Teamwork</li><br>
+            <li>Adaptability</li>
+        </div>
+    </div>
+    </div>
+    </div>
+ </div>
+ <div id="less">
+   <div id="less1">
+    <h1 style="color: orange; position: relative; left: 50px;">projects</h1>
+    <div id="less4">
+    <div id="less2"> 
+        <img src="https://th.bing.com/th/id/OIP.iKHtThGvNAmio_Ij37pTzwHaFj?pid=ImgDet&w=208&h=156&c=7&dpr=1.5">
+   <h4 style=" color: lightskyblue;">Project1</h4>
+   <p>A weather app contains a user input field for the user, which takes the input of the city name. Once the user enters the city name and clicks on the button, then the API Request is been sent to the OpenWeatherMap and the response is been retrieved in the application which consists of weather, wind speed, description, etc.Creating a comprehensive weather app involves multiple steps, including fetching data from a weather API etc.. </p>
+    <button style="background-color: lightskyblue; border-radius: 10px;">Review Project1</button>
+</div>
+<div id="less3">
+    <img src="https://th.bing.com/th/id/OIP.r2XIJ9JKTEtZ-oTFSn_oEQHaDr?w=350&h=173&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+    <h4 style=" color: lightskyblue;">Project2</h4>
+    <p>In this article, we'll walk you through a step-by-Step guide to building a fully functional calculator application from scratch using HTML, CSS and of course JavaScript.
+
+        it including addition, subtraction, multiplication, and division and the process of creating your very own calculator effectively.You'll learn how to implement the logic behind the calculator's.and the process of creating your very own calculator effectively.</p>
+        <button style="background-color: lightskyblue; border-radius: 10px;">Review Project2</button>
+    </div>
+     </div>
+     <div id="less7">
+     <div id="less5">
+        <img src="https://th.bing.com/th/id/OIP.88Z7zU1rJ-XHXTuCrBKHnwHaFj?w=232&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7 " height="170px" width="170px">
+        <h4 style=" color: lightskyblue;">Project3</h4>
+        <p>we will create a stopwatch with the functionality of start, stop and reset, using HTML, CSS, and JavaScript.
+
+            We'll start by creating the stopwatch's user interface with HTML and CSS. Then, using JavaScript, we'll make the user interface functional.Use this online stopwatch to measure elapsed time with split intervals and alarms.</p>
+            <button style="background-color:  lightskyblue; border-radius: 10px;">Review Project3</button>
+    </div>
+    <div id="less6">
+        <img src="https://th.bing.com/th/id/OIP.N6X9FQ3KyIfAh6QPwsWBQAHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" height="170px" width="170px">
+        <h4 style=" color: lightskyblue;">Project4</h4>
+        <p>Ready to create an engaging online platform for education You arrived in the exact right place. In this blog, we unveil a handpicked selection of free educational website templates withHTML and CSS magic.Online education is a form of learning that uses the Internet for teacher/student interaction and class materials distribution.</p>
+        <button style="background-color: lightskyblue; border-radius: 10px;">Review Project4</button>
+    </div>
+     </div>
+        <div id="less8">
+            <button style="background-color: orange;position: relative;left: 360px;top: 100px; padding: 5px; border-radius: 10px;">See More</button>
+        </div>
+</div> 
+ </div>
+ <div id="more">
+    <div id="more1">
+        <h1 style="color: orange;position: relative; top: 470px; left: 70px;">Contact Me</h1>
+    </div>
+    <div id="more2">
+        <h3 style="color: lightskyblue;">Let' Works Together</h3>
+        <p>Are you ready to bring your ideas to life?<br> Whether you’re looking for a collaboration, <br>have a project in mind, or just want to<br> say hello, I’d love to hear from you!<br> Let’s discuss how we can work together<br> to create something amazing.</p>
+        <div id="more3">
+        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>sunilmallela9177@gmail.com</a><br><br>
+        <a href=""><i class="fa-solid fa-phone"></i>9392002507</a><br><br>
+        <a href="https://www.facebook.com/login.php"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=32918211b258ee87JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIwNQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=twitter+login&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9sb2dpbj0&ntb=1"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=ff0bd9466b5f8968JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=instagram+login&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY2NvdW50cy9sb2dpbi8&ntb=1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.bing.com/ck/a?!&&p=d23e3f236932b875JmltdHM9MTcyMzMzNDQwMCZpZ3VpZD0xZGNiNjkyZS04YWI4LTY5ZmEtMWJkMy03YjZiOGIxZTY4YmImaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=1dcb692e-8ab8-69fa-1bd3-7b6b8b1e68bb&psq=linkedin&u=a1aHR0cHM6Ly9pbi5saW5rZWRpbi5jb20v&ntb=1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        </div>
+        <div id="more5">
+            <form onsubmit="App8()">
+                <label>FullName:</label>
+                <input type="text" id="name" placeholder="Enter your name"><br><br>
+                <label>EMailID:</label>
+                <input type="email" id="email" placeholder="Enter your Email"><br><br>
+                <label>MobileNo:</label>
+                <input type="number" id="number" placeholder="Enter your MobileNo"><br><br>
+                <label>Message:</label>
+                <input type="text" id="message" placeholder="Enter your Message"><br><br>
+                <button style="background-color: lightskyblue; position: relative;left: 100px;">Submit</button>
+            </form>
+        </div>
+  </div> 
+        </div>
+</div>
+</div>
+ <script>
+    function App1(){
+  let a=  document.getElementById("card").style.display="block"
+}
+function App2(){
+  let b=  document.getElementById("Act").style.display="block"
+}
+function App3(){
+  let c=  document.getElementById("Acts").style.display="block"
+}
+function App4(){
+  let d=  document.getElementById("Act7").style.display="block"
+}
+function App5(){
+  let d=  document.getElementById("less").style.display="block"
+}
+function App6(){
+  let d=  document.getElementById("more").style.display="block";
+  
+}
+function App7(){
+    
+    let e=document.getElementById("list").innerHTML="" 
+}
+function App8(){
+    let FullName=document.getElementById("name").value
+    let EMailID=document.getElementById("email").value
+    let MobileNo=document.getElementById("number").value
+    let Message=document.getElementById("message").value
+    if(FullName.length<6){
+        alert("more than 6 letters")
+    }
+    else if(MobileNo.length<10){
+        alert("check the  MobileNo")
+
+    } 
+    else{
+        alert("form success")
+        localStorage.setItem("FullName",FullName)
+        localStorage.setItem("EMailID",EMailID)
+        localStorage.setItem("MobileNo",MobileNo)
+        localStorage.setItem("Message",Message)
+    }
+}
+setTimeout(function App9(){
+   let a= document.getElementById("Rest").style.display="block";
+
+},6000)
+ </script>
+
+    </body>
+</html>
